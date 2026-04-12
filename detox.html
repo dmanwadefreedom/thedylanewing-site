@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dylan's Detox Stack</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #2d6a4f;
+    --green-light: #40916c;
+    --green-pale: #d8f3dc;
+    --cream: #fefae0;
+    --dark: #0d1b0f;
+    --gray: #6b705c;
+    --accent: #95d5b2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--dark); color: var(--cream); font-family: 'DM Sans', sans-serif; min-height: 100vh; padding: 0 0 60px; }
+  .hero { background: linear-gradient(160deg, #0d1b0f 0%, #1b4332 60%, #0d1b0f 100%); padding: 52px 24px 40px; text-align: center; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: -60px; left: 50%; transform: translateX(-50%); width: 300px; height: 300px; background: radial-gradient(circle, rgba(149,213,178,0.15) 0%, transparent 70%); pointer-events: none; }
+  .avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--green); display: flex; align-items: center; justify-content: center; font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--accent); margin: 0 auto 16px; border: 2px solid var(--green-light); }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: 38px; letter-spacing: 2px; color: var(--cream); line-height: 1.1; margin-bottom: 8px; }
+  .hero p { font-size: 14px; color: var(--accent); font-weight: 300; letter-spacing: 0.04em; max-width: 280px; margin: 0 auto 6px; line-height: 1.6; }
+  .disclaimer { font-size: 11px; color: var(--gray); margin-top: 10px; }
+  .section-label { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 3px; color: var(--green-light); padding: 28px 20px 10px; text-transform: uppercase; }
+  .card { background: #111e13; border: 1px solid #1e3a22; border-radius: 14px; margin: 0 16px 12px; padding: 18px; display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; transition: border-color 0.2s, background 0.2s; position: relative; overflow: hidden; }
+  .card:hover { border-color: var(--green-light); background: #152418; }
+  .card::after { content: '→'; position: absolute; right: 18px; top: 50%; transform: translateY(-50%); color: var(--green-light); font-size: 18px; opacity: 0.6; }
+  .card-icon { width: 46px; height: 46px; border-radius: 10px; background: var(--green); display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+  .card-body { flex: 1; padding-right: 20px; }
+  .card-title { font-size: 15px; font-weight: 500; color: var(--cream); margin-bottom: 3px; }
+  .card-sub { font-size: 12px; color: var(--gray); line-height: 1.4; }
+  .badge { display: inline-block; font-size: 10px; font-weight: 500; background: var(--green-pale); color: var(--green); border-radius: 20px; padding: 2px 8px; margin-top: 4px; letter-spacing: 0.03em; }
+  .divider { height: 1px; background: #1e3a22; margin: 8px 20px 0; }
+  .footer { text-align: center; padding: 32px 20px 0; font-size: 11px; color: var(--gray); line-height: 1.8; }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .signup-btn { display: block; margin: 24px 16px 0; background: var(--green); color: var(--cream); text-align: center; padding: 15px; border-radius: 12px; font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 2px; text-decoration: none; transition: background 0.2s; }
+  .signup-btn:hover { background: var(--green-light); }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="avatar">DE</div>
+  <h1>Dylan's<br>Detox Stack</h1>
+  <p>Everything I personally recommend to clean out your body and take back control.</p>
+  <div class="disclaimer">* Affiliate links — I only share what I believe in.</div>
+</div>
+
+<div class="section-label">💧 Clean Your Water First</div>
+
+<a class="card" href="https://www.berkeyfilters.com/pages/berkey-filters-affiliate-program" target="_blank">
+  <div class="card-icon">🪣</div>
+  <div class="card-body">
+    <div class="card-title">Berkey Water Filter</div>
+    <div class="card-sub">Removes fluoride, heavy metals, bacteria. The one I trust.</div>
+    <span class="badge">15% commission — Sign up first</span>
+  </div>
+</a>
+
+<div class="divider"></div>
+<div class="section-label">🌿 Pull Out The Metals</div>
+
+<a class="card" href="https://www.amazon.com/dp/B08K3R68DZ?tag=thedylanewing-20" target="_blank">
+  <div class="card-icon">🟢</div>
+  <div class="card-body">
+    <div class="card-title">MaryRuth's Liquid Chlorophyll Drops</div>
+    <div class="card-sub">Top rated. Clean label certified. Binds and flushes heavy metals daily.</div>
+    <span class="badge">Amazon ✓ Live Link</span>
+  </div>
+</a>
+
+<a class="card" href="https://www.amazon.com/dp/B0FCPBSDVS?tag=thedylanewing-20" target="_blank">
+  <div class="card-icon">💚</div>
+  <div class="card-body">
+    <div class="card-title">Ultra Human Heavy Metal Detox</div>
+    <div class="card-sub">Zeolite + Spirulina + Chlorella + Cilantro all in one. Made in USA.</div>
+    <span class="badge">Amazon ✓ Live Link</span>
+  </div>
+</a>
+
+<a class="card" href="https://www.amazon.com/dp/B08HSZ2K4R?tag=thedylanewing-20" target="_blank">
+  <div class="card-icon">🪨</div>
+  <div class="card-body">
+    <div class="card-title">Royal Detox — Zeolite + Chlorella + Spirulina</div>
+    <div class="card-sub">25+ years of zeolite expertise. Full body, liver, colon detox.</div>
+    <span class="badge">Amazon ✓ Live Link</span>
+  </div>
+</a>
+
+<a class="card" href="https://www.amazon.com/dp/B0DJ7LN327?tag=thedylanewing-20" target="_blank">
+  <div class="card-icon">🫧</div>
+  <div class="card-body">
+    <div class="card-title">Total Detox Gummies — Zeolite + Chlorella + Iodine</div>
+    <div class="card-sub">Includes pineal decalcification and fluoride cleanse. Easy daily use.</div>
+    <span class="badge">Amazon ✓ Live Link</span>
+  </div>
+</a>
+
+<div class="divider"></div>
+<div class="section-label">🧪 Test Your Levels</div>
+
+<a class="card" href="https://www.amazon.com/s?k=heavy+metal+urine+test+kit&tag=thedylanewing-20" target="_blank">
+  <div class="card-icon">🔬</div>
+  <div class="card-body">
+    <div class="card-title">Heavy Metal Urine Test Kit</div>
+    <div class="card-sub">Know what is in your body before you detox. Data over guessing.</div>
+    <span class="badge">Amazon ✓ Live Link</span>
+  </div>
+</a>
+
+<a href="https://www.amazon.com/shop/thedylanewing?tag=thedylanewing-20" target="_blank" class="signup-btn">🛒 Shop My Full Amazon Stack</a>
+
+<div class="footer">
+  Questions? DM me on Instagram<br>
+  <a href="https://instagram.com/thedylanewing">@thedylanewing</a><br><br>
+  Affiliate disclosure: I may earn a small commission at no extra cost to you.<br>
+  This is not medical advice. Always consult your doctor.
+</div>
+
+</body>
+</html>
